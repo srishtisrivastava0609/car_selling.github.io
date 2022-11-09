@@ -1,0 +1,85 @@
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin: 0 5px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: #e67e22;
+}
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+header
+{
+    width: 100%;
+    height: 100vh;
+    background: url(Car.jpg);
+    background-size: 100% 100%;
+}
+.h-text{
+    max-width: 600px;
+    color: yellow;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h-text h1{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h-text p{
+    font-size: 40px;
+    margin: 40px 0px;
+    line-height: 30px;
+    color: whitesmoke
+}
+.h-text a{
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 250ms linear;
+    border: #e67e22 1px solid;
+    color: crimson;
+    background: lightgray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 20px;
+    margin: 0px 15px;
+    letter-spacing: 5px;
+
+
+}
